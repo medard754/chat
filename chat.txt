@@ -1,0 +1,124 @@
+/*
+class ChatsDiscuss extends StatefulWidget {
+  ChatsDiscuss({Key? key}) : super(key: key);
+
+  @override
+  _ChatsDiscussState createState() => _ChatsDiscussState();
+}
+
+class _ChatsDiscussState extends State<ChatsDiscuss> {
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(10),
+          child: Container(
+            height: 30,
+            color: Colors.black,
+          ),
+        ),
+        SizedBox(
+          height: 20,
+        ),
+        Padding(
+            padding: const EdgeInsets.all(10),
+            child: ListView.builder(
+                itemCount: discussion.length,
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: InkWell(
+                      onTap: () {},
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        children: [
+                          Container(
+                            height: 55,
+                            width: 55,
+                            child: CircleAvatar(
+                                //backgroundImage:AssetImage("assets/images/icon.png"),
+                                //backgroundColor:Colors.transparent
+                                ),
+                          ),
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Container(
+                            // height: MediaQuery.of(context).size.height*0.2,
+                            width: MediaQuery.of(context).size.width * 0.6,
+                            child: Padding(
+                              padding: const EdgeInsets.only(
+                                left: 5,
+                                top: 3,
+                              ),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.stretch,
+                                children: [
+                                  Text(
+                                    discussion[index].name,
+                                    style: TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.w800),
+                                  ),
+                                  SizedBox(
+                                    height: 15,
+                                  ),
+                                  Text(
+                                    discussion[index].message,
+                                    style: TextStyle(
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.w300,
+                                    ),
+                                    textAlign: TextAlign.start,
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                          SizedBox(
+                            width: 10,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 8, top: 5),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: [
+                                Text(
+                                  discussion[index].heure,
+                                  style: TextStyle(
+                                    fontSize: 12,
+                                    fontWeight: FontWeight.w200,
+                                  ),
+                                ),
+                                SizedBox(
+                                  height: 18,
+                                ),
+                                Container(
+                                    height: 16,
+                                    width: 16,
+                                    color: Colors.blueAccent.shade100,
+                                    child: CircleAvatar(
+                                      child: Text(
+                                        discussion[index].nbreSms,
+                                        style: TextStyle(
+                                          fontSize: 15,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w400,
+                                        ),
+                                      ),
+                                    ))
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  );
+                })),
+      ],
+    );
+  }
+}
+*/
